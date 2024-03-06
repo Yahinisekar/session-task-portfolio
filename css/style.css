@@ -2,8 +2,8 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-.row{
-    margin-left: 18%!important;
+.box{
+    /* margin-left: 10%!important; */
 }
 .project{
 
@@ -12,6 +12,16 @@ body{
 i{
     font-size:30px ;
 }
-.card{
-    background-color: rgb(234, 231, 231)!important;
+.one{
+    background-color: rgb(210, 203, 203)!important;
+    transition: all 0.2s ease-in-out;
+    /* border:none !important; */
+}
+.one:hover{
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+cursor:pointer;
+}
+.two{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius:5px;
 }
